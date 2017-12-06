@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext');
+
+header {
+  padding: 20px 0 13px 0;
+  background-color: #ffffff;
+}
+
+.clear {
+  clear: both;
+}
+
+.menu-holder{
+    a{
+      display: inline-block;
+      padding: 26px 10px 33px 0;
+      text-decoration: none;
+      font-family: Montserrat;
+      color: #262829;
+      &:hover {
+        color: #ffac55;
+        text-decoration: none;
+      }
+    }
+
+  }
+  .banner {
+    height: 700px;
+    background: url("pic/banner.jpg") no-repeat;
+    background-size: contain;
+  }
+
+  .industary {
+    height: 525px;
+    width: 458px;
+    background-color: #03b6e7;
+
+  }
+
+  .industary-header {
+    padding: 33px 17px 30px 17px;
+    height: 117px;
+    color: #ffffff;
+    background-color: #ffac56;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16pt;
+  }
+
+
+leftnav {
+  a {
+    font-family: Montserrat;
+    color: #ffffff;
+    &:hover {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+  div{
+    height: 130px;
+    width: 229px;
+    padding: 33px 28px 41px 40px;
+    border: 1px solid #00a6d3;
+    float: left;
+    &:hover {
+      background-color: #00a6d3;
+      .arrow {opacity: 1;}
+    }
+    p{
+      padding: 5px 0;
+      //float: left;
+    }
+    .arrow {
+      opacity: 0.5;
+      float: right;
+    }
+  }
+
+}
+
+.callnow {
+  height: 148px;
+  padding: 7px 13px 11px 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16pt;
+  .worker {
+    height: 130px;
+    width: 103px;
+    background: url("pic/worker.png") no-repeat;
+    float: left;
+  }
+  .tel {
+    width: 328px;
+    height: 130px;
+    padding: 25px 0 38px 0;
+    float: right;
+    //text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  .telno {
+    float: right;
+    background: url("pic/tel24.png") no-repeat;
+    background-color: #16d428;
+    background-position: 10px 10px;
+    border-radius: 30px;
+    height: 52px;
+    width: 305px;
+    p {
+      padding: 0 15px 0 35px;
+      font-family: Montserrat;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 26pt;
+    }
+  }
+}
+
+.aboutus {
+  height: 445px;
+  background-color: #ffffff;
+  .aboutus_text-holder {
+    text-align: right;
+    float: right;
+    font-family: Roboto;
+    font-size: 10pt;
+    color: #838b8c;
+  }
+}
